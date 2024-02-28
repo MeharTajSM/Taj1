@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sibling</title>
+    <style>
+        p+h1{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <p>paragraph outside the div</p>
+    <h1>header1</h1>
+    <!-- <p>paragraph outside the div</p> -->
+    <div>
+        <h2>inside div</h2>
+        <p>p1 inside div</p>
+        <p>p2 inside div</p>
+        <h3>h3 insdie div</h3>
+    </div>
+    <!-- <p>outside div</p> -->
+    <h1>header 2</h1>
+</body>
+</html>

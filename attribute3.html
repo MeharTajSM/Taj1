@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+     <style>
+        .main {
+            background-color: #dc3d24;
+            color:#fdf9f9;
+        }
+        .font1{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-weight: 100px;
+        }
+        
+        .sub{
+            background-color: hotpink;
+            color: #000000;
+        }
+        .font2{
+            font-family: cursive;
+            font-size: large;
+        }
+
+        /* starts with https */ 
+        /* a[href^="https"]
+        {
+          color:yellow
+        } */
+        /* with all */
+         /* a[href*="https://www.google.com/"]
+        {
+            color:cyan;
+        } */
+        /* ends with */
+     /* img[src$="jpg"]
+        {
+            border: 10px solid red;
+        } 
+        img[src$="png"]{
+            border:  10px solid yellowgreen;
+        }   */
+        /* a[href="https://www.google.com/"]
+        {
+            background-color: violet;
+        }
+
+        a[href="https://en.wikipedia.org/wiki/Internet"]
+        {
+background-color: aqua;
+
+        }
+a[href^="#"]
+{
+    color:yellow;
+} */
+
+a[href~="https://www.britannica.com/topic/Web-application"]
+{
+    color:#000000;
+}
+     </style>
+</head>
+
+<body>
+    <div class="main font1">
+    <h1>Webdevelopment technology</h1>
+    <p>
+        Web applications generally use different programming languages for their
+        user-facing front ends (or “client sides”), which present information, and
+        for their back ends (“server sides”), which store and retrieve that
+        information. Scripts for applications’ front ends are written in languages
+        like HTML, CSS, and JavaScript, as those are supported by major browsers.
+        PHP and ASP.NET are common choices for back ends. However, since Web
+        applications, unlike mobile applications, frequently lack standard
+        development kits (SDK), developers’ choices for programming their servers
+        are less restricted.The first Web applications were by necessity simple
+        programs, as every individual Web page on the Internet was at the time a
+        static document. A user would initiate a request on the client side—that
+        is, in a <a href="https://www.britannica.com/topic/Web-application">Web browser</a>    or an application’s user interface—that a Web server
+        would then send to the Web application server. The application server
+        would perform the requested task—e.g., query a database—and return the
+        results, which would make the return trip to appear on the user’s display on the <a href="https://en.wikipedia.org/wiki/Internet"> Internet</a>.<br>
+        <a href="https://www.google.com/" >To know about all these technologies kindly go to google.</a>
+
+    </p>
+    <ul>
+       <a href="#FE" ><li>Front-end technology </li></a>
+        <li>database connection</li>
+        <li>Back-end technology</li>
+    </ul>
+</div>
+
+    <div class="sub font2" >
+
+<h2 id="FE">Front-end development</h2>
+        <img src="https://www.shutterstock.com/image-vector/front-end-development-web-application-260nw-521164462.jpg" height="300px" width="300px">
+        <p>HyperText Markup Language
+            HyperText Markup Language (HTML) is the backbone of any website development process, without which a web
+            page does not exist. Hypertext means that text has links, termed hyperlinks, embedded in it. When a user
+            clicks on a word or a phrase that has a hyperlink, it will bring another web-page. A markup language
+            indicates text can be turned into images, tables, links, and other representations. It is the HTML code that
+            provides an overall framework of how the site will look. HTML was developed by Tim Berners-Lee. The latest
+            version of HTML is called HTML5 and was published on October 28, 2014 by the W3C recommendation. This
+            version contains new and efficient ways of handling elements such as video and audio files.
+
+            Cascading Style Sheets (CSS)
+            Cascading Style Sheets (CSS) controls the presentation aspect of the site and allows your site to have its
+            own unique look. It does this by maintaining style sheets that sit on top of other style rules and are
+            triggered based on other inputs, such as device screen size and resolution. The CSS can be added externally,
+            internally, or embedded in the HTML tags.[6]
+
+            JavaScript
+            JavaScript is an event-based imperative programming language (as opposed to HTML's declarative language
+            model) that is used to transform a static HTML page into a dynamic interface. JavaScript code can use the
+            Document Object Model (DOM), provided by the HTML standard, to manipulate a web page in response to events,
+            like user input.
+
+            Using a technique called AJAX, JavaScript code can also actively retrieve content from the web (independent
+            of the original HTML page retrieval), and also react to server-side events as well, adding a truly dynamic
+            nature to the web page experience.
+
+        </p>
+
+    </div >
+    <div class="sub font2">
+        <h2>Database connection</h2>
+        <img src="https://cdn.educba.com/academy/wp-content/uploads/2019/09/PHP-Database-Connection.png" height="300px" width="300px">
+        <p>A database connection is a facility in computer science that allows client software to talk to database
+            server software, whether on the same machine or not. A connection is required to send commands and receive
+            answers, usually in the form of a result set.
+
+            Connections are a key concept in data-centric programming. Since some DBMS engines require considerable time
+            to connect, connection pooling was invented to improve performance. No command can be performed against a
+            database without an "open and available" connection to it.
+
+            Connections are built by supplying an underlying driver or provider with a connection string, which is a way
+            of addressing a specific database or server and instance as well as user authentication credentials (for
+            example, Server=sql_box;Database=Common;User ID=uid;Pwd=password;). Once a connection has been built it can
+            be opened and closed at will, and properties (such as the command time-out length, or transaction, if one
+            exists) can be set. The Connection String is composed of a set of key/value pairs as dictated by the data
+            access interface and data provider being used.</p>
+    </div>
+
+    <div class="sub font2">
+        <h2>Back-end development</h2>
+        <img
+            src="https://www.asynclabs.co/wp-content/uploads/2021/05/How_to_Choose_the_Right_Backend_Technology_for_Your_App_inforgraphic-1.png" height="300px" width="300px">
+        <p>Backend technologies refer to the tools, frameworks, languages, and databases used to build the server side
+            of web applications. These technologies work behind the scenes, managing the server, databases, and the
+            application logic that facilitates communication between the server and the end user's browser (front end).5
+            Dec 2023</p>
+    </div>
+</body>
+
+</html>
